@@ -33,9 +33,7 @@ const Home = () => {
                  </Card>
                 </Col>
             </Row>
-        )}
-
-        <CounterPage /> 
+        )} 
     </Container>
   )
 }
