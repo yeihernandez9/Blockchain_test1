@@ -4,6 +4,7 @@ import LayoutPublic from "../layouts/LayoutPublic";
 import NotFound from "../pages/notFound/NotFound";
 import CounterPage from "../pages/counter/CounterPage";
 import TokenPage from "../pages/token/TokenPage";
+import NftPage from "../pages/nft/NftPage";
 
 export const router = createBrowserRouter([
     {
@@ -20,6 +21,9 @@ export const router = createBrowserRouter([
             },{
                 path : "/token",
                 element : <TokenPage />
+            },{
+                path : "/nft",
+                element : <NftPage/>
             }
             
         ]
