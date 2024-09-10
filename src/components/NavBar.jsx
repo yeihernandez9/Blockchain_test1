@@ -16,6 +16,7 @@ const NavBar = () => {
           <Nav.Link as={Link} to="/counter">Counter</Nav.Link>
           <Nav.Link as={Link} to="/token">Token</Nav.Link>
           <Nav.Link as={Link} to="/nft">NFTs</Nav.Link>
+          <Nav.Link as={Link} to="/dao">DAO</Nav.Link>
           </Nav>
           <WalletButton />
         </Container>

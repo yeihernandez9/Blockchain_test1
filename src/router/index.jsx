@@ -5,6 +5,7 @@ import NotFound from "../pages/notFound/NotFound";
 import CounterPage from "../pages/counter/CounterPage";
 import TokenPage from "../pages/token/TokenPage";
 import NftPage from "../pages/nft/NftPage";
+import DaoPage from "../pages/dao/DaoPage";
 
 export const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
             },{
                 path : "/nft",
                 element : <NftPage/>
+            },
+            {
+                path : "/dao",
+                element : <DaoPage/>
             }
             
         ]
